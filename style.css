@@ -1,0 +1,141 @@
+
+
+html {
+ 
+    background-image: url(img/bg1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width:100%;
+
+  }
+
+
+  
+#img1{
+    width:100%;
+
+
+  }
+
+
+  .border-btn {
+    display: inline-block;
+
+    padding: 10px 25px;
+    margin-right: 20px;
+    background: #FFF9F1;
+    text-decoration: none;
+    font-family: 'Marck Script', cursive;
+    letter-spacing: 1px;
+    border-width: 6px;
+    border-style: double;
+    transition: .5s;
+    font-size: 66px;
+    position: relative;
+    margin-top: 20%;
+    margin-left: 50%;
+
+transform: translate(-50%, 0);
+
+
+  }
+  .color-one {
+    border-color: #8FD4DB;
+    color: #F5745F;
+  }
+
+  
+  .border-btn:before,
+  .border-btn:after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    transform: rotate(-45deg);
+    transition: .5s;
+  }
+  .color-one:before, .color-one:after {background: #8FD4DB;}
+
+  .border-btn:before {
+    left: -3px;
+    top: 3px;
+  }
+  .border-btn:after {
+    right: -3px;
+    bottom: 3px;
+  }
+  .color-one:hover {
+    background: #8FD4DB;
+    border-color: #FFF9F1;
+  }
+
+
+  .color-one:hover:before, .color-one:hover:after {background: #FFF9F1;}
+
+
+
+
+  /* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+
+.border-btn1 {
+  display: inline-block;
+
+  padding: 10px 25px;
+  margin-right: 20px;
+  background: #FFF9F1;
+  text-decoration: none;
+  font-family: 'Marck Script', cursive;
+  letter-spacing: 1px;
+  border-width: 6px;
+  border-style: double;
+  transition: .5s;
+  font-size: 66px;
+  position: relative;
+
+  margin-left: 42%;
+}
+
+  .border-btn1:before,
+  .border-btn1:after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    transform: rotate(-45deg);
+    transition: .5s;
+  }
+.color-one:before, .color-one:after {background: #8FD4DB;}
+
+.border-btn1:before {
+  left: -3px;
+  top: 3px;
+}
+.border-btn1:after {
+  right: -3px;
+  bottom: 3px;
+}
+
+.transition {
+  transition: 3s;
+}
+
+marquee{
+  font: Tahoma;
+}

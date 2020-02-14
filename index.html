@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js.js"></script>
+    <title>Hello, Alyena!</title>
+    <link rel="shortcut icon" href="img/ic.png" type="image/x-icon">
+</head>
+
+<body>
+     
+ 
+
+<style>
+div.example2 {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+}
+div.example2 img {
+  position:absolute; 
+  /*За счет transition, добиваемся плавности эффекта*/
+  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.example2 img.smile1 {
+  opacity:0;
+  filter:alpha(opacity=0);
+}
+.example2:hover img.smile1 {
+  opacity:1;
+  filter:alpha(opacity=100);
+}
+.example2:hover img.smile2, .example2 img.smile2:hover {
+  opacity:0;
+  filter:alpha(opacity=0);
+}
+
+.example2 img.smile1 {
+  -moz-transform:scale(0);
+  -webkit-transform:scale(0);
+  -o-transform:scale(0);
+  -ms-transform:scale(0);
+}
+.example2:hover img.smile1 {
+  -moz-transform:scale(1);
+  -webkit-transform:scale(1);
+  -o-transform:scale(1);
+  -ms-transform:scale(1);
+}
+.example2:hover img.smile2 {
+  -moz-transform:scale(0);
+  -webkit-transform:scale(0);
+  -o-transform:scale(0);
+  -ms-transform:scale(0);
+}
+</style>
+<div  class="example2">
+<img  src="img/smile_2.png"  class="smile1" /img>
+<img  src="img/smile_1.png"  class="smile2" /img>
+</div>
+
+<div id="pocik"><a href="index2.html" class="border-btn color-one" >Click me!</a></div>
+
+
+
+<br>
+
+
+
+
+<marquee behavior="alternate" scrollamount="10" style="color: rgb(94, 217, 255); font-size: 40px; font-weight: 10; line-height: 150%; text-shadow: #000000 1px 1px 1px;" >Please, press the button!   What are u waiting for? :)</marquee>
+
+
+
+
+
+
+
+</body>
+</container>
+</html>
+
